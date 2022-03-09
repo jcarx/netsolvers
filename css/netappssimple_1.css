@@ -1,0 +1,172 @@
+.topcontent {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    opacity: 0.6;
+    width: 100%;
+}
+.mainlinktext{
+    font-size: 30px;
+    font-family: 'Roboto', Sans-Serif , monospace;
+}
+.headertext{
+    font-size: 60px;
+    font-family: 'Charmonman', Sans-Serif , monospace;
+}
+.subheader{
+    font-size: 30px;
+    font-family: 'Roboto', Sans-Serif , monospace;
+}
+.rightcontent {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    width: 160px;
+}
+.rightcontentlink {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    width: 160px;
+}
+.footercontent {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+td{
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+a:link {
+    color: #000;
+    opacity:1.0;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+/* begin global buttons */
+.netbutton{
+    border-radius: 10%;
+    border: 1px solid #3bb3e0;
+    padding: 15px;
+    padding: 2px 4px 5px 4px;
+    font-weight: bold;
+    background: #fff;
+}
+.netbutton:hover {
+    background: #b3d7ff;
+    color: #fff;
+    border-radius: 10%;
+    border: 1px solid #3bb3e0;
+    padding: 2px 4px 5px 4px;
+}
+.video-container {
+    height: 260px;
+    width: 260px;
+    overflow: hidden;
+}
+.video-container video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.video-container .contacttext {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+}
+.demovideotable{
+    width: 260px;
+    height: 260px;
+}
+/* video form --------------------------------*/
+.video-form {
+    height: 390px;
+    width: 460px;
+    overflow: hidden;
+}
+.video-form video{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.video-form .formtext {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+}
+/* charmonman-regular - latin */
+@font-face {
+    font-family: 'Charmonman';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/charmonman-v8-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/charmonman-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/charmonman-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/charmonman-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('fonts/charmonman-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/charmonman-v8-latin-regular.svg#Charmonman') format('svg'); /* Legacy iOS */
+}
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/roboto-v27-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('fonts/roboto-v27-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('fonts/roboto-v27-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('fonts/roboto-v27-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('fonts/roboto-v27-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+    }
+    .row.content {
+        height: auto;
+        margin-top: 0px;
+    }
+    netappsheadertext{
+        display: none;
+    }
+
+    /* Responsive layout - when the screen is less than 600px wide, 
+    make the two columns stack on top of each other instead of 
+    next to each other */
+    .col-25, input[type=submit] {
+        width: 100%;
+        margin-top: -1;
+    }
+    .products{
+        display: none;
+    }
+    .fly-in{
+        display: none;
+    }
+    .divcolorbtnrow{
+        display: none;
+    }
+}
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 1069px) {
+    .demoweb{
+        display: none;
+    }
+}
