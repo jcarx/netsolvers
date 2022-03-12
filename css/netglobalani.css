@@ -1,100 +1,23 @@
 .linkaniroll1{
     opacity: 0;
-    border: 5px solid #f0ff00;
-    border-style: initial;
-    width: 360px;
-    height: 360px;
-    margin-top: 2px;
-    margin-bottom: 0px;
+    border: 2px solid black;
     border-radius: 180%;
-    position:fixed;
+    position:absolute;
     animation: keylinkaniroll1 .5s linear 1.0s;
     animation-fill-mode: forwards;
 }
 @keyframes keylinkaniroll1 {
         0%   {
-        left:50px;
-        top:50px;
+        left:0px;
+        top:0px;
         opacity:1;
         transform: rotate(360deg);
         width: 60px;
         height: 60px
-    }
-    10%  {
-        left:65px;
-        top:75px;
-        opacity:1;
-        transform: rotate(110deg);
-        width: 60px;
-        height: 60px
-    }
-    20%  {
-        left:80px;
-        top:80px;
-        opacity:1;
-        transform: rotate(150deg);
-        width: 60px;
-        height: 60px
-    }
-    30%  {
-        left:100px;
-        top:100px;
-        opacity:1;
-        transform: rotate(210deg);
-        width: 60px;
-        height: 60px
-    }
-    40%  {
-        left:120px;
-        top:120px;
-        opacity:1;
-        transform: rotate(270deg);
-        width: 60px;
-        height: 60px
-    }
-    50%  {
-        left:150px;
-        top:150px;
-        opacity:1;
-        transform: rotate(330deg);
-        width: 60px;
-        height: 60px
-    }
-    60%  {
-        left:190px;
-        top:180px;
-        opacity:1;
-        transform: rotate(360deg);
-        width: 60px;
-        height: 60px
-    }
-    70%  {
-        left:200px;
-        top:350px;
-        opacity:1;
-        transform: rotate(360deg);
-        width: 100px;
-        height: 100px
-    }
-    80%  {
-        left:220px;
-        top:370px;
-        opacity:1;
-        transform: rotate(360deg);
-        width: 260px;
-        height: 260px
-    }
-    90%  {
-        left:320px;
-        top:400px;
-        opacity:1;
-        transform: rotate(360deg);
-        width: 380px;
-        height: 380px
-    }   
+    }  
     100% {
         left:40%;
-        top:10%;
+        top:0px;
         opacity:1;
         transform: rotate(360deg);
         border-radius: 180%;
@@ -102,104 +25,26 @@
         height: 160px
     }
 }
-
 .linkaniroll2{
     opacity: 0;
-    border: 5px solid #000;
-    border-style: outset;
-    width: 360px;
-    height: 360px;
-    margin-top: 2px;
-    margin-bottom: 0px;
+    border: 2px solid black;
     border-radius: 180%;
-    position:fixed;
+    position:absolute;
     animation: keylinkaniroll2 1.0s linear 1.5s;
     animation-fill-mode: forwards;
 }
 @keyframes keylinkaniroll2 {
     0%   {
-        left:50px;
-        top:50px;
+        left:0px;
+        top:0px;
         opacity:1;
         transform: rotate(360deg);
         width: 60px;
         height: 60px
-    }
-    10%  {
-        left:65px;
-        top:75px;
-        opacity:1;
-        transform: rotate(110deg);
-        width: 60px;
-        height: 60px
-    }
-    20%  {
-        left:80px;
-        top:80px;
-        opacity:1;
-        transform: rotate(150deg);
-        width: 60px;
-        height: 60px
-    }
-    30%  {
-        left:100px;
-        top:100px;
-        opacity:1;
-        transform: rotate(210deg);
-        width: 60px;
-        height: 60px
-    }
-    40%  {
-        left:120px;
-        top:120px;
-        opacity:1;
-        transform: rotate(270deg);
-        width: 60px;
-        height: 60px
-    }
-    50%  {
-        left:150px;
-        top:150px;
-        opacity:1;
-        transform: rotate(330deg);
-        width: 60px;
-        height: 60px
-    }
-    60%  {
-        left:190px;
-        top:180px;
-        opacity:1;
-        transform: rotate(360deg);
-        width: 60px;
-        height: 60px
-    }
-    70%  {
-        left:200px;
-        top:350px;
-        opacity:1;
-        transform: rotate(360deg);
-        width: 100px;
-        height: 100px
-    }
-    80%  {
-        left:220px;
-        top:370px;
-        opacity:1;
-        transform: rotate(360deg);
-        width: 260px;
-        height: 260px
-    }
-    90%  {
-        left:320px;
-        top:400px;
-        opacity:1;
-        transform: rotate(360deg);
-        width: 380px;
-        height: 380pxMahindra Jeep MM540
     }   
     100% {
-        left:30%;
-        top:40%;
+        left:20%;
+        top:165px;
         opacity:1;
         transform: rotate(360deg);
         border-radius: 180%;
@@ -209,99 +54,23 @@
 }
 .linkaniroll3{
     opacity: 0;
-    width: 360px;
-    height: 360px;
-    margin-top: 2px;
-    margin-bottom: 0px;
     border-radius: 180%;
-    position:fixed;
+    position:absolute;
     animation: keylinkaniroll3 1.2s linear 1.1s;
     animation-fill-mode: forwards;
 }
 @keyframes keylinkaniroll3 {
     0%   {
-        left:50px;
-        top:50px;
+        left:0px;
+        top:0px;
         opacity:1;
         transform: rotate(360deg);
         width: 60px;
         height: 60px
-    }
-    10%  {
-        left:65px;
-        top:75px;
-        opacity:1;
-        transform: rotate(110deg);
-        width: 60px;
-        height: 60px
-    }
-    20%  {
-        left:80px;
-        top:80px;
-        opacity:1;
-        transform: rotate(150deg);
-        width: 60px;
-        height: 60px
-    }
-    30%  {
-        left:100px;
-        top:100px;
-        opacity:1;
-        transform: rotate(210deg);
-        width: 60px;
-        height: 60px
-    }
-    40%  {
-        left:120px;
-        top:120px;
-        opacity:1;
-        transform: rotate(270deg);
-        width: 60px;
-        height: 60px
-    }
-    50%  {
-        left:150px;
-        top:150px;
-        opacity:1;
-        transform: rotate(330deg);
-        width: 60px;
-        height: 60px
-    }
-    60%  {
-        left:190px;
-        top:180px;
-        opacity:1;
-        transform: rotate(360deg);
-        width: 60px;
-        height: 60px
-    }
-    70%  {
-        left:200px;
-        top:350px;
-        opacity:1;
-        transform: rotate(360deg);
-        width: 100px;
-        height: 100px
-    }
-    80%  {
-        left:220px;
-        top:370px;
-        opacity:1;
-        transform: rotate(360deg);
-        width: 260px;
-        height: 260px
-    }
-    90%  {
-        left:320px;
-        top:400px;
-        opacity:1;
-        transform: rotate(360deg);
-        width: 380px;
-        height: 380px
     }
     100% {
-        left:50%;
-        top:40%;
+        left:60%;
+        top:165px;
         opacity:1;
         transform: rotate(360deg);
         border-radius: 180%;
@@ -310,105 +79,30 @@
     }
 }
 .linkaniroll4{
-    opacity: 1;
-    border: 1px solid #000;
-    border-style: none;
-    width: 160px;
-    height: 160px;
-    margin-top: 2px;
-    margin-bottom: 0px;
-    border-radius: 180%;
-    position:fixed;
+    opacity: 0;
+    border: 2px solid black;
+    position: absolute;
     animation: keylinkaniroll4 1.5s linear 1.1s;
     animation-fill-mode: forwards;
 }
 @keyframes keylinkaniroll4 {
     0%   {
-        left:250px;
-        top:250px;
+        left:0px;
+        top:0px;
         opacity:1;
         transform: rotate(360deg);
         width: 60px;
         height: 60px
-    }
-    10%  {
-        left:65px;
-        top:75px;
-        opacity:1;
-        transform: rotate(110deg);
-        width: 60px;
-        height: 60px
-    }
-    20%  {
-        left:80px;
-        top:80px;
-        opacity:1;
-        transform: rotate(150deg);
-        width: 60px;
-        height: 60px
-    }
-    30%  {
-        left:100px;
-        top:100px;
-        opacity:1;
-        transform: rotate(210deg);
-        width: 60px;
-        height: 60px
-    }
-    40%  {
-        left:120px;
-        top:120px;
-        opacity:1;
-        transform: rotate(270deg);
-        width: 60px;
-        height: 60px
-    }
-    50%  {
-        left:150px;
-        top:150px;
-        opacity:1;
-        transform: rotate(330deg);
-        width: 60px;
-        height: 60px
-    }
-    60%  {
-        left:190px;
-        top:180px;
-        opacity:1;
-        transform: rotate(360deg);
-        width: 60px;
-        height: 60px
-    }
-    70%  {
-        left:200px;
-        top:350px;
-        opacity:1;
-        transform: rotate(360deg);
-        width: 100px;
-        height: 100px
-    }
-    80%  {
-        left:220px;
-        top:370px;
-        opacity:1;
-        transform: rotate(360deg);
-        width: 260px;
-        height: 260px
-    }
-    90%  {
-        left:320px;
-        top:400px;
-        opacity:1;
-        transform: rotate(360deg);
-        width: 380px;
-        height: 380px
     }
     100% {
         left:40%;
-        top:70%;
+        top:315px;
         opacity:1;
         transform: rotate(360deg);
         border-radius: 180%;
+        border-bottom: 50px solid rgb(252, 7, 7);
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
         width: 160px;
         height: 160px
     }

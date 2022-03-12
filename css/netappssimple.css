@@ -1,56 +1,68 @@
-.topcontent {
+.topdiv {
     position: relative;
-    color: #f1f1f1;
-    opacity: 0.1;
+    /* border: 5px solid #030303;
+     background: rgba(240, 27, 27, 0.5); */
+    opacity: .2;
+    width: 100%;
+    height: 160px;
+}
+.maindiv{
+    position: relative;
+    /* border: 5px solid #f13921; 
+    background-color: rosybrown; */
+    width: 100%;
+    height: 480px;
+}
+.maindivimg{
+    position: relative;
+    border: 5px solid #f13921;
+    background-image: url("../images/paddybg.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 100%;
+    height: 480px;
+}
+.footerdiv {
+    position: fixed;
+    /* border: 5px solid #08afec;
+    background: rgba(223, 13, 205, 0.5);*/
+    bottom: 0;
     width: 100%;
 }
-.topcontentsub {
-    position: relative;
-    color: #f1f1f1;
-    opacity: 0.9;
-    width: 100%;
+.homelogo{
+    background-image: url(../images/196logonew.webp);
+    display: block;
+    margin: 0 auto;
+    text-indent: -9999px;
+    width: 160px;
+    height: 160px; 
 }
+@media screen and (max-width: 768px) {
+    .topdiv {
+        position: relative;
+        background: rgba(250, 240, 240, 0.5);
+        width: 100%;
+    }
+    .maindiv{
+        position: relative;
+        background: rgba(18, 196, 68, 0.5);
+        width: 100%;
+        height: auto;
+    }
+    .footerdiv {
+        position: fixed;
+        background: rgba(245, 25, 36, 0.5);
+        width: 100%;
+    }
+ }
 .mainlinktext{
     font-size: 30px;
     font-family: 'Roboto', Sans-Serif , monospace;
     opacity: 1.0;
 }
-.logosignnormal{
-    font-family: 'Charmonman', Sans-Serif , monospace;
-}
-.mainlinktextwhite{
-    font-size: 30px;
-    font-family: 'Roboto', Sans-Serif , monospace;
-    opacity: 1.0;
-    color: #fff;
-}
 .headertext{
     font-size: 50px;
     font-family: 'Charmonman', Sans-Serif , monospace;
-}
-.subheader{
-    font-size: 30px;
-    font-family: 'class="formtext"class="formtext"Roboto', Sans-Serif , monospace;
-}
-.subtextdesc{
-    padding-left: 100px;
-    font-size: 20px;
-    font-family: 'class="formtext"class="formtext"Roboto', Sans-Serif , monospace;
-}
-.rightcontent {
-    position: relative;
-    background: rgba(0, 0, 0, 0.5);
-    width: 160px;
-}
-.rightcontentlink {
-    position: relative;
-    background: rgba(0, 0, 0, 0.5);
-    width: 160px;
-}
-.footercontent {
-    position: relative;
-    background: rgba(0, 0, 0, 0.5);
-    width: 100%;
 }
 table{
     width: 200px;
@@ -59,35 +71,14 @@ table{
 td{
     text-align: left;
 }
-a{
-    text-decoration: none;
+a:any-link{
+    color: rgb(7, 7, 7);
     opacity:1.0;
-}
-a:link {
-    color: #000;
-    opacity:1.0;
-    text-decoration: none;
+    font-weight: 500;
 }
 a:hover {
-    color: #3bb3e0;
+    color: rgb(9, 248, 41);
     text-decoration: none;
-    opacity:1.0;
-}
-/* begin global buttons */
-.netbutton{
-    border-radius: 10%;
-    border: 1px solid #3bb3e0;
-    padding: 15px;
-    padding: 2px 4px 5px 4px;
-    font-weight: bold;
-    background: #fff;
-}
-.netbutton:hover {
-    background: #b3d7ff;
-    color: #fff;
-    border-radius: 10%;
-    border: 1px solid #3bb3e0;
-    padding: 2px 4px 5px 4px;
 }
 .video-container {
     height: 160px;
@@ -106,7 +97,9 @@ a:hover {
     z-index: 1;
     position: relative;
     text-align: center;
+    color: #000;
     font-size: 20px;
+    opacity: 1;
 }
 /* charmonman-regular - latin */
 @font-face {
@@ -134,41 +127,3 @@ a:hover {
         url('fonts/roboto-v27-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
         url('fonts/roboto-v27-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
 }
-@media screen and (max-width: 767px) {
-   .row.content {
-        height: auto;
-        margin-top: 0px;
-    }
-    .col-sm-8{
-        height: auto;
-        margin-top: 0px;
-    }
-    .rightcontent{
-        height: auto;
-        margin-top: 1px;
-        margin-left: 80px;
-    }
-}
-/* On small screens, set height to 'auto' for sidenav and grid 
-@media screen and (max-width: 767px) {
-    .sidenav {
-        height: auto;
-    }
-    .row.content {
-        height: auto;
-        margin-top: 0px;
-    }
-    .col-25, input[type=submit] {
-        width: 100%;
-        margin-top: -1;
-    }
-    .products{
-        display: none;
-    }
-    .fly-in{
-        display: none;
-    }
-    .divcolorbtnrow{
-        display: none;
-    }
-}*/
