@@ -5,7 +5,7 @@
     <title>Netsolvers.Net</title>
     <meta name="robots" content="index, follow" />
     <meta name="author" content="Ravi Manthena">
-    <meta name="viewport" content="width=device-width, initial-scale=.7" />
+    <meta name="viewport" content="width=device-width, initial-scale=.6" />
     <link rel="icon" type="image/png" href="./assets/images/pwa/justnet32.png">
     <link rel="manifest" href="./assets/manifest.json">
     <meta name="theme-color" content="#b3d7ff" />
@@ -66,19 +66,16 @@
             document.getElementById("dump").innerHTML = display;
         }	
     </script>
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="./css/netglobalani.css" />
     <link rel="stylesheet" type="text/css" href="./css/netappssimple.css" />
-    <script src="./scripts/netappsvalidation.js"></script>
 </head>
-
 <body>
-    <div class="topcontent">
-        <table style="width:100%;height:150px">
+    <div name="topdiv" class="topdiv">
+        <table style="width:100%;height:160px">
             <tr>
                 <td style="width:90px">
                     <a href="index.html" rel="noopener">
-                        <img src="./images/196logonew.webp" alt="pi" width="180" height="180">
+                    <div class="homelogo"></div>
                     </a>
                 </td>
                 <td>
@@ -86,108 +83,109 @@
             </tr>
         </table>
     </div>
-    <center>
-        <div class="row content">
-            <!-- bgvideo position: fixed; min-width: 100%;
-                min-height: 100%; -->
+    <div name="maindiv" class="maindiv">
+        <!-- bgvideo position: fixed; min-width: 100%;
+                min-height: 100%; 
+        <video autoplay muted loop id="myVideo" style="opacity:0.2;">
+            <source src="./videos/netsolversbgv6.webm" type="video/webm">
+            Your browser does not support HTML5 video.
+        </video> 
+        <div name="maincenterdiv" class="maincenterdiv">-->
             <video autoplay muted loop id="myVideo" style="opacity:0.2;">
                 <source src="./videos/netsolversbgv6.webm" type="video/webm">
                 Your browser does not support HTML5 video.
-            </video>
-            <div class="col-sm-8">
-                <table>
-                    <tr>
-                        <td>
-                            <a href="https://www.jcarx.com/NetAppsOcean/androids/soundalert/soundalert.jsp"
-                                target="_blank" rel="noopener">
-                                <div class="video-container linkaniroll1">
-                                    <video autoplay muted style="opacity:0.9;">
-                                        <source src="./videos/galaxy.webm" type="video/webm" />
-                                    </video>
-                                    <center>
-                                        <br>
-                                        <br>
-                                        <p class="mainlinktext">
-                                            Android
-                                        </p>
-                                    </center>
-                                </div>
-                            </a>
-                        </td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td>
-                            <a href="https://www.jcarx.com" target="_blank" rel="noopener">
-                                <div class="video-container linkaniroll2">
-                                    <video autoplay muted style="opacity:0.9;">
-                                        <source src="./videos/galaxy.webm" type="video/webm" />
-                                    </video>
-                                    <center>
-                                        <br>
-                                        <br>
-                                        <p class="mainlinktext">
-                                            JCarx
-                                        </p>
-                                    </center>
-                                </div>
-                            </a>
-                        </td>
-                    </tr>
-                </table>
-                <table style="width : 160px; height: 160px;">
-                    <tr>
-                        <td>
-                            <a href="blockchain.html" rel="noopener">
-                                <div class="video-container linkaniroll3">
-                                    <video autoplay muted loop style="opacity:0.9;">
-                                        <source src="./videos/blockchaingreenv3.webm" type="video/webm" />
-                                    </video>
-                                    <center>
-                                        <br>
-                                        <br>
-                                        <!-- p class="mainlinktext">
+            </video> 
+        <table>
+            <tr>
+                <td>
+                    <a href="https://www.jcarx.com/NetAppsOcean/androids/soundalert/soundalert.jsp" target="_blank"
+                        rel="noopener">
+                        <div class="video-container linkaniroll1">
+                            <video autoplay muted style="opacity:0.9;">
+                                <source src="./videos/galaxy.webm" type="video/webm" />
+                            </video>
+                            <center>
+                                <br>
+                                <br>
+                                <p class="mainlinktext">
+                                    Android
+                                </p>
+                            </center>
+                        </div>
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://www.jcarx.com" target="_blank" rel="noopener">
+                        <div class="video-container linkaniroll2">
+                            <video autoplay muted style="opacity:0.9;">
+                                <source src="./videos/galaxy.webm" type="video/webm" />
+                            </video>
+                            <center>
+                                <br>
+                                <br>
+                                <p class="mainlinktext">
+                                    JCarx
+                                </p>
+                            </center>
+                        </div>
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <table style="width : 160px; height: 160px;">
+            <tr>
+                <td>
+                    <a href="blockchain.html" rel="noopener">
+                        <div class="video-container linkaniroll3">
+                            <video autoplay muted loop style="opacity:0.9;">
+                                <source src="./videos/blockchaingreenv3.webm" type="video/webm" />
+                            </video>
+                            <center>
+                                <br>
+                                <br>
+                                <!-- p class="mainlinktext">
                                             BlockChain
                                         </p -->
-                                    </center>
-                                </div>
-                            </a>
-                        </td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td>
-                            <a href="aboutme.html" rel="noopener">
-                                <div class="video-container linkaniroll4">
-                                    <video autoplay loop muted style="opacity:0.9;">
-                                        <source src="./videos/ravi.webm" type="video/webm" />
-                                    </video>
-                                    <center>
-                                        <br>
-                                        <br>
-                                        <p class="mainlinktext">
-                                            About Me
-                                        </p>
-                                    </center>
-                                </div>
-                            </a>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </center>
-    <div class='footercontent'>
+                            </center>
+                        </div>
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <a href="aboutme.html" rel="noopener">
+                        <div class="video-container linkaniroll4">
+                            <video autoplay loop muted style="opacity:0.9;">
+                                <source src="./videos/ravi.webm" type="video/webm" />
+                            </video>
+                            <center>
+                                <br>
+                                <br>
+                                <p class="mainlinktext">
+                                    Contact
+                                </p>
+                            </center>
+                        </div>
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <!-- /div -->
+    </div>
+    <div class='footerdiv' name="footerdiv">
         <center>
-            (c) 2022 <a href='https://www.jcarx.com' target="_blank">Netsolvers.net</a>
+            (c) 2022 Netsolvers.net
             &nbsp;&nbsp;&nbsp;
-            <a href='https://www.jcarx.com/NetAppsOcean/privacy.jsp' target="_blank">Privacy</a>
+            <a href='privacy.html' target="_blank">Privacy</a>
         </center>
     </div>
-    <script src="./scripts/jquery.min.1.11.1.js"></script>
-    <script src="./scripts/bootstrap.min.js"></script>
+    <script src="./scripts/netappsvalidation.js"></script>
     <script src="./assets/jcarxservice.js" defer></script>
 </body>
 
