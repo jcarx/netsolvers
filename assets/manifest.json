@@ -19,17 +19,17 @@
             "purpose": "any maskable"
         }
     ],
-    "start_url": "http://www.netsolvers.net/index.html",
+    "start_url": "https://www.netsolvers.net/index.html",
     "background_color": "#3367D6",
     "display": "standalone",
-    "scope": "http://www.netsolvers.net/index.html",
+    "scope": "https://www.netsolvers.net/index.html",
     "theme_color": "#3367D6",
     "shortcuts": [
         {
             "name": "Netsolvers.Net",
             "short_name": "Coding",
             "description": "it's all about Coding",
-            "url": "http://www.netsolvers.net/index.html",
+            "url": "https://www.netsolvers.net/index.html",
             "icons": [{
                     "src": "./images/pwa/icons-192.png",
                     "sizes": "192x192"
