@@ -1,101 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Netsolvers.Net</title>
-        <meta name="robots" content="index, follow"/>  
-        <meta name="author" content="Ravi Manthena">
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link rel="icon" type="image/png" 
-              href="./assets/images/pwa/justnet32.png">
-        <link rel="manifest" href="./assets/manifest.json">       
-        <meta name="theme-color" content="#b3d7ff"/>
-        <link rel="apple-touch-icon" href="./assets/images/pwa/icon-192.png"/>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta name="keywords" content="NetSolvers"/>
-        <meta name="description" content="Optimization Tool for CSS HTML JS and Images"/>
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <meta property="og:title" content="NetSolvers" />
-        <meta property="og:description" content="Camping In AP India" />
-        <meta property="og:url" content="https://www.NetSolvers.net" />
-        <meta property="og:image" content="./assets/images/pwa/icons-192.png" />
-        <meta property="og:site_name" content="www.NetSolvers.net" />
-        <meta property="og:type" content="Web Mobile Optimization Tools Online" />
-        <style>
-            #myVideo {
-                position: fixed;
-                right: 0;
-                bottom: 0;
-                min-width: 100%;
-                min-height: 100%;
-            }
-        </style>
-        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"/>
-        <link rel="stylesheet" type="text/css" href="./css/netglobalani.css"/>
-        <link rel="stylesheet" type="text/css" href="./css/netappssimple.css"/>
-        <link rel="stylesheet" type="text/css" href="./css/prism.css"/>
-        <link rel="stylesheet" type="text/css" href="./css/netarticles.css"/>
-        <script src="./scripts/prism.js"></script>
-        <script src="./scripts/netappsvalidation.js"></script> 
-    </head>
-    <body>
-        <!-- bgvideo  -->
-        <video autoplay muted loop id="myVideo" 
-               style="opacity:0.4;">
-            <source src="./videos/netsolversbg.webm" type="video/webm">
-            Your browser does not support HTML5 video.
-        </video>
-        <div class="topcontentsub">
-            <table style="width:100%;height:150px">
-                <tr>
-                    <td style="width:90px">
-                        <p class="mainlinktext"> 
-                            <a href="index.html" rel="noopener">
-                                <img src="./images/196logonew.webp"  
-                                     alt="pi" width="180" height="180">
-                                </p>
-                                </td>
-                                </tr>
-                                </table>
-                                </div>    
-                                <div class="row content" style="margin-left: 100px;">
-                                    <div class="col-sm-8"> 
-                                        <a name="index"></a>
-                                        <!-- begin whitepaper -->
-                                        <section>                     
-                                            BlockChain Client v1.05 Whitepaper<br>
-                                            <span class='logosignnormal'>Ravi Manthena</span><br>
-                                        </section><br>
-                                        <section>                     
-                                            <a name="Transation"></a>
-                                            <b>Transation Flow Buyer/Seller</b><br>
-                                        </section>
-                                        <div class="box imagelarge">
-                                            <IMG SRC="./images/bitcoinflow1.png">
-                                        </div>
-                                        <p class='fontgoogle'>
-                                            <span class='tab'></span>
-                                            A authenticated buyer makes a purchased on PiNetwork's authorized Seller  
-                                            website or an app for product's or service. 
-                                        </p>
-                                        <a name="buyer"></a>
-                                        <section>
-                                            <a href="#index">                            
-                                                <div class="arrow">&nbsp;&#5169;&nbsp;</div>                        
-                                            </a>                   
-                                            <p class='fontgoogle'>
-                                                <span class='tab'></span>
-                                                <b>Buyer</b> is preregistered with the Seller through login process or by login as a 
-                                                PiMainNet verified user. This ensures buyer can purchase Seller's Services and 
-                                                products and is authenticated. 
-                                            </p>
-                                        </section>
-                                        <p class='fontgoogle'>
-                                            <span class='tab'></span>
-                                            <i>Buyer Code Sample</i> 
-                                        </p>
-                                        <div class="codesmall">
-                                            <pre>
+
+<head>
+    <title>Netsolvers.Net</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Ravi Manthena">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="./assets/images/pwa/justnet32.png">
+    <link rel="manifest" href="./assets/manifest.json">
+    <meta name="theme-color" content="#b3d7ff" />
+    <link rel="apple-touch-icon" href="./assets/images/pwa/icon-192.png" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="NetSolvers" />
+    <meta name="description" content="Optimization Tool for CSS HTML JS and Images" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta property="og:title" content="NetSolvers" />
+    <meta property="og:description" content="Camping In AP India" />
+    <meta property="og:url" content="https://www.NetSolvers.net" />
+    <meta property="og:image" content="./assets/images/pwa/icons-192.png" />
+    <meta property="og:site_name" content="www.NetSolvers.net" />
+    <meta property="og:type" content="Web Mobile Optimization Tools Online" />
+    <style>
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/netglobalani.css" />
+    <link rel="stylesheet" type="text/css" href="./css/netappssimple.css" />
+    <link rel="stylesheet" type="text/css" href="./css/prism.css" />
+    <link rel="stylesheet" type="text/css" href="./css/netarticles.css" />
+    <script src="./scripts/prism.js"></script>
+    <script src="./scripts/netappsvalidation.js"></script>
+</head>
+<body>
+    <a href="index.html">
+        <div class="arrow" style='font-size:100px;'>&#8701;</div>
+    </a>
+    <div class="row content" style="margin-left: 100px;">
+        <div class="col-sm-8">
+            <br><br>
+            <a name="index"></a>
+            <!-- begin whitepaper -->
+            <section>
+                BlockChain Client v1.05 Whitepaper <a href="https:www.apcamping.com" style="color: blue">(View Demo here)</a><br>
+                <span class='logosignnormal'>Ravi Manthena</span><br>
+            </section><br>
+            <section>
+                <a name="Transation"></a>
+                <b>Transation Flow Buyer/Seller</b><br>
+            </section>
+            <div class="box imagelarge">
+                <IMG SRC="./images/bitcoinflow1.png">
+            </div>
+            <p class='fontgoogle'>
+                <span class='tab'></span>
+                A authenticated buyer makes a purchased on PiNetwork's authorized Seller
+                website or an app for product's or service.
+            </p>
+            <a name="buyer"></a>
+            <section>
+                <a href="#index">
+                    <div class="arrow">&nbsp;&#5169;&nbsp;</div>
+                </a>
+                <p class='fontgoogle'>
+                    <span class='tab'></span>
+                    <b>Buyer</b> is preregistered with the Seller through login process or by login as a
+                    PiMainNet verified user. This ensures buyer can purchase Seller's Services and
+                    products and is authenticated.
+                </p>
+            </section>
+            <p class='fontgoogle'>
+                <span class='tab'></span>
+                <i>Buyer Code Sample</i>
+            </p>
+            <div class="codesmall">
+                <pre>
             <code class="language-js">
                 <script type="prism-html-markup">
 // Authenticate the user, and get permission to request payments from them:
@@ -112,28 +97,28 @@ Pi.authenticate(scopes, onIncompletePaymentFound).then(function(auth) {
             </script>
             </code>
                                             </pre>
-                                            </div>
-                                        Ref:: https://github.com/pi-apps/pi-platform-docs
-                                        <br><br>
-                                        <a name="seller"></a>
-                                        <section>
-                                            <a href="#buyer">                            
-                                                <div class="arrow">&nbsp;&#5169;&nbsp;</div>                        
-                                            </a>                   
-                                            <p class='fontgoogle'>
-                                                <span class='tab'></span>
-                                                <b>Seller</b> registeres with PiMainNet as a seller/vendor, Assuming the PiMainNet
-                                                approves the request. The seller is provided with an API key, which should be embedded
-                                                in the server side webservice call with each request. This ensures PiMainNet that request 
-                                                is from a valid Seller.
-                                            </p>
-                                        </section>
-                                        <p class='fontgoogle'>
-                                            <span class='tab'></span>
-                                            <i>Seller Code Sample</i> 
-                                        </p>
-                                        <div class="codesmall">
-                                            <pre>
+            </div>
+            Ref:: https://github.com/pi-apps/pi-platform-docs
+            <br><br>
+            <a name="seller"></a>
+            <section>
+                <a href="#buyer">
+                    <div class="arrow">&nbsp;&#5169;&nbsp;</div>
+                </a>
+                <p class='fontgoogle'>
+                    <span class='tab'></span>
+                    <b>Seller</b> registeres with PiMainNet as a seller/vendor, Assuming the PiMainNet
+                    approves the request. The seller is provided with an API key, which should be embedded
+                    in the server side webservice call with each request. This ensures PiMainNet that request
+                    is from a valid Seller.
+                </p>
+            </section>
+            <p class='fontgoogle'>
+                <span class='tab'></span>
+                <i>Seller Code Sample</i>
+            </p>
+            <div class="codesmall">
+                <pre>
             <code class="language-js">
                 <script type="prism-html-markup">
 // Authorization: Key <your Server API Key>
@@ -166,22 +151,23 @@ Pi.authenticate(scopes, onIncompletePaymentFound).then(function(auth) {
             </script>
             </code>
                                             </pre>
-                                        </div>
-                                         Ref:: https://github.com/pi-apps/pi-platform-docs
-                                            <br>
-                                       <br>
-                                        <!-- end whitepaper -->
-                                    </div>         
-                                </div> 
+            </div>
+            Ref:: https://github.com/pi-apps/pi-platform-docs
+            <br>
+            <br>
+            <!-- end whitepaper -->
+        </div>
+    </div>
 
-                                <div class='footercontent'>
-                                    <center>
-                                        (c) 2022 <a href='https://www.jcarx.com' target="_blank">Netsolvers.net</a>
-                                        &nbsp;&nbsp;&nbsp;        
-                                        <a href='https://www.jcarx.com/NetAppsOcean/privacy.jsp' target="_blank">Privacy</a>      
-                                    </center>
-                                </div>
-                                <script src="./scripts/jquery.min.1.11.1.js"></script>  
-                                <script src="./scripts/bootstrap.min.js"></script>
-                                </body>
-                                </html>
+    <div class='footercontent'>
+        <center>
+            (c) 2022 <a href='https://www.jcarx.com' target="_blank">Netsolvers.net</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href='https://www.jcarx.com/NetAppsOcean/privacy.jsp' target="_blank">Privacy</a>
+        </center>
+    </div>
+    <script src="./scripts/jquery.min.1.11.1.js"></script>
+    <script src="./scripts/bootstrap.min.js"></script>
+</body>
+
+</html>
